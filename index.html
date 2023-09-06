@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Namma Sydney</title>
+    <style>
+
+        @media screen and (max-width: 601px) {
+            .header {
+              font-size: 0.2em;
+            }
+          }     
+
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+
+        html{
+            width: 100%;
+            height: 100%;
+            
+            }
+
+        body {
+
+            width: 100%;
+            height: 100%;
+            
+            
+            
+
+        }
+
+        .container {
+            display: grid;
+            height: 100%;
+            width: 100%;            
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: .2fr 1fr 1fr 1fr;
+            background-color: bisque;
+        }
+
+        
+
+        <!-- .leftpanel{
+            display: grid;
+            grid-area: a;    
+            height: 100%;
+            width: 100%;             
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.25fr 1.75fr;              
+            background-color: rgba(0, 0, 0, 0.8);
+            grid-row-start: 1;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            
+        } -->
+
+        .outerleftheader{
+            
+            height: 100%;
+            width: 100%;   
+            object-fit:fill;  
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;   
+            
+        }
+
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            justify-content: space-evenly;
+            grid-row-start: 2;
+            grid-row-end: 5;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            
+            
+        }
+
+        a {
+            color: white;
+            text-decoration: double;
+            margin-right: auto;
+            margin-left: 05%;
+            
+            
+        }
+
+        .innerleftheader {
+            
+            height: 100%;
+            width: 100%;   
+            object-fit:fill;    
+        }
+
+
+        .header{  
+            display: grid;
+            border: none;  
+            background-color: burlywood;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100%;
+            width: 100%;   
+                
+        }        
+
+        .kflag{
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+        .nflag{
+            display: flex;
+            flex-wrap: wrap; 
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+        .ktext{
+            display: flex;
+            flex-wrap: wrap;
+            border: none;
+            align-items: center;
+            justify-content: center;     
+            margin-left: 50%;
+            height: 100%;
+            width: 100%; 
+            font-size: 95%;
+                     
+        }
+        
+        
+        
+        .innerrightheader {
+            height: 100%;
+            width: 100%;   
+            object-fit:fill;         
+        }
+
+        .outerrightheader {
+            
+            height: 100%;
+            width: 100%;   
+            object-fit:fill;       
+        }
+
+        
+        
+
+       
+
+        .navbody{
+            display: flex;
+            flex-wrap: wrap;   
+            border: none;
+            grid-column-start: 2;
+            grid-column-end: 6;   
+            grid-row-start: 2;
+            grid-row-end: 6; 
+
+        }
+
+       
+
+        #idbody {
+            
+            height: 100%;
+            width: 100%;       
+        }
+    
+    </style>
+</head>
+<body>
+
+
+    
+        
+    <div class="container">
+
+        <div class="leftpanel">
+            <img class="outerleftheader" src="../Images/Front_Page_Images/Flag-India.webp" style="max-width:100%;"/>
+
+            <div class="navbar">            
+                <a href="../Webpages/home.html" target="namebody">Home</a>
+                <a href="../Webpages/NS_Community_Website_Links.html" target="namebody">Community Sites</a>
+                <a href="../Webpages/Free_Services.html" target="namebody">Free Community Services</a>
+                <a href="../Webpages/Talent_Pool.html" target="namebody">Talent Pool</a>
+                <a href="../Webpages/Jobs/Job_Portal.html" target="namebody">Job Portal</a>
+                <a href="../Webpages/Professional_Services/NS_Business_Directory.html" target="namebody">Professional Services</a>
+                <a href="../Webpages/NS_Upcoming_Events.html" target="namebody">Upcoming Events</a>
+                <a href="../Webpages/Past_Events.html" target="namebody">Past Events</a>  
+                <a href="../Webpages/DownTheMemoryLane.html" target="namebody">Down The Memory Lane</a>
+                <a href="https://forms.gle/Cu24XFYFVVZrvjNr7" target="namebody">Request to Create Entry</a>
+                <a href="../Webpages/ContactUS.html" target="namebody">Contact Us</a>   
+            </div>
+
+
+        </div>
+        
+       
+         <img class="innerleftheader" src="../Images/Front_Page_Images/Mysore_Palace.jpg" style="max-width:100%;"/>
+
+        <div class="header">
+            <img class="kflag" src="../Images/Front_Page_Images/karnataka_flag.jpg" style="max-width:100%;"/>
+            <img class="nflag" src="../Images/Front_Page_Images/NSW.png" style="max-width:100%;"/>  
+            <div class="ktext"><h2>ನಮ್ಮ ಸಿಡ್ನಿ</h2></div>
+        </div>
+             
+        
+        <img class="innerrightheader" src="../Images/Front_Page_Images/SydneyOpera_House.JPG" style="max-width:100%;"/>
+        <img class="outerrightheader" src="../Images/Front_Page_Images/Flag-Australia.webp" style="max-width:100%;"/>
+        
+        <div class="navbody">
+            <iframe name="namebody" id="idbody" src="Webpages/home.html" frameborder="0"></iframe>
+        </div> 
+         
+        
+    </div>
+    
+</body>
+</html>
